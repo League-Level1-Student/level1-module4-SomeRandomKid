@@ -1,0 +1,77 @@
+Level 1 Exam
+Name: Jaiden Lau Written: /70
+GitHub username: SomeRandomKid Coding: /60
+1. Write a line of code that makes a Hamburger. (3)
+public Hamburger(double pounds, boolean withCheese) {
+//other code
+}
+Hamburgur good = new Hamburger(0.25, true)
+2. Write a constructor for a Duck object that has a name and age. (6)
+Duck(String name; int age) {
+}
+3. Create and initialize variables for the following: (4)
+The number of toes you have
+int toes = 10;
+The name of your favorite sports team
+String favSportsTeam = "FC Barcelona);
+An instance of java.util.Random
+______________________________
+A JFrame
+JFrame boi = new JFrame;
+4. Circle the valid JComponents: (4)
+X JFrame
+X JButton
+○ JMouseListener
+○ JTextButton
+X JLabel
+X JOptionPane
+○ JPane
+X JPanel
+○ Frame
+Copyright Wintriss Technical Schools 20135. List the JComponents used to create the application above. (6)
+JFrame, JPanel, JLabel, JButton
+6. Add listeners to these two Components: (6)
+JButton myButton = new JButton();
+JFrame myFrame = new JFrame();
+myButton.addActionListener(this); MyFrame.addMouseListener(this);
+7. What method do you use to organize the layout of components in a JFrame? Pack (3)
+int checkStock(String productName, int productNumber){}
+8. What is the return type of this method? (3) Int
+9. What parameters does it take? (3)
+1 String and int
+10. What code would you need to put in between the mustaches to get it to compile? (4)
+Frame.pack()
+11. Write a method that quadruples a number and returns the result. (6)
+int Quad(int staringValue) {
+return staringValue*4;
+}
+Copyright Wintriss Technical Schools 201312. Underline the problem with this code. (2)
+public class RedRedRed {
+int counter = 0;
+public static void main(String[] args) {
+
+}
+public void incrementCounter() {
+counter++;
+}
+}
+13. How would you fix it? (4)
+14. Make the Dog bark. (6)
+public class Dog {
+String name;
+Dog(String name) {
+this.name = name;
+}
+void bark() {
+System.out.println("woof woof");
+}
+Dog doggo = new Dog(good boi) {
+bark();
+}
+}
+Copyright Wintriss Technical Schools 201315. Use the EmailSender class below to send an email and print a warning if the email did not
+send correctly. (10)
+public class EmailSender {
+/* Returns true if email was sent successfully, false if it failed to send. */
+boolean send(String greeting) {}
+void setEmailAddress(String email) {}
